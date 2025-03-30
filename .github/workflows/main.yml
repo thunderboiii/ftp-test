@@ -11,11 +11,11 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: wp12599526.server-he.de
+        server: ftp://185.166.188.25
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
-        server-dir: public_html/ftp-test/
+        server-dir: /public-html/test-ftp/
         passive: true
         concurrency: 1
         server-timeout: 120000
