@@ -14,3 +14,5 @@ jobs:
         server: wp12599526.server-he.de
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
+        protocol: ftps
+        server-dir: public_html/ftp-test
