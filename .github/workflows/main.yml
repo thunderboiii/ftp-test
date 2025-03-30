@@ -15,7 +15,7 @@ jobs:
         username: ${{ secrets.FTPUSERNAME }}
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
-        server-dir: /domains/isabell-becher.com/public-html/test-ftp/
+        server-dir: /domains/isabell-becher.com/public_html/test-ftp/
         passive: true
         concurrency: 1
         server-timeout: 120000
