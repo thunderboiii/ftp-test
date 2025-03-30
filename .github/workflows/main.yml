@@ -16,3 +16,6 @@ jobs:
         password: ${{ secrets.FTPPASSWORD }}
         protocol: ftps
         server-dir: public_html/ftp-test/
+        passive: true
+        concurrency: 1
+        server-timeout: 120000
